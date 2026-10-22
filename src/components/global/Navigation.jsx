@@ -18,7 +18,7 @@ export default function Navigation({ howToEnter, competitions, scheduleOfEvents,
                     <a href="/" className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:text-neutral-900">Home</a>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <a href="/contestants/2026" className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:text-neutral-900">Contestants</a>
+                    <a href="/contestants/2024" className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:text-neutral-900">Contestants</a>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>How To Enter</NavigationMenuTrigger>

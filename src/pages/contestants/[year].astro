@@ -13,10 +13,10 @@
 // points at that year's data.
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
-const KNOWN_YEARS = ["2024", "2026"];
+const KNOWN_YEARS = ["2024"];
 
 export async function getStaticPaths() {
-  return ["2024", "2026"].map((year) => ({
+  return ["2024"].map((year) => ({
     params: { year },
   }));
 }
